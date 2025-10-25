@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Halaman Admin</title>
+
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+  <style>
+    body {
+      background-color: #f8f9fa;
+    }
+    .sidebar {
+      background-color: #e9ecef;
+      min-height: 100vh;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #f1f1f1;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Admin Panel</a>
+      <div>
+        <a href="#" class="text-white me-3 text-decoration-none">Profil</a>
+        <a href="#" class="text-white text-decoration-none">Logout</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid mt-3">
+    <div class="row">
+
+      <div class="col-md-3 sidebar p-3">
+        <h5>Menu Utama</h5>
+        <nav class="nav flex-column">
+          <a class="nav-link text-dark" href="#">Dashboard</a>
+          <a class="nav-link text-dark" href="#">Laporan</a>
+          <a class="nav-link text-dark" href="#">Pengguna</a>
+          <a class="nav-link text-dark" href="#">Pengaturan</a>
+        </nav>
+      </div>
+
+      <div class="col-md-9">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h4 class="card-title">Selamat Datang, Admin!</h4>
+            <p class="card-text">Ini adalah halaman utama dashboard Anda.</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Statistik Pengguna</h5>
+                <p class="card-text"><strong>1,200 Pengguna</strong><br>Total pengguna terdaftar di sistem.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <div class="card-body">
+                <h5 class="card-title">Penjualan</h5>
+                <p class="card-text"><strong>Rp 50.000.000</strong><br>Total penjualan bulan ini.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 Aisma Haidy Putri.
+  </footer>
+
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
